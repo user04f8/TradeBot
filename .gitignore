@@ -1,2 +1,5 @@
 secrets.json
 secret_constants.py
+llmtime/*
+dataset/markets/*
+dataset/news/gnews/realnews.jsonl
