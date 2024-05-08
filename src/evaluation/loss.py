@@ -1,5 +1,6 @@
 import numpy as np
 
+from constants import BUTTERFLY_STRATEGY_SPREAD
 
 def butterfly(x, k, k_spread, p=0):
     """
@@ -12,7 +13,7 @@ def butterfly(x, k, k_spread, p=0):
     """
     return np.max(np.abs(x - k), k_spread) - p
 
-def butterfly_loss(xs, ys, spread=10):
+def butterfly_loss(xs, ys, spread=BUTTERFLY_STRATEGY_SPREAD):
     # since we don't care about a constant factor in a loss function we can ignore p
     
     return np.sum(np.maximum(np.abs(xs - ys), spread))  # == np.sum(np.max(np.abs(x - k), k_spread) for x, k in xs, ks)

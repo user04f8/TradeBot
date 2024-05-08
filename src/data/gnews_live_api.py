@@ -4,15 +4,15 @@ import urllib.request
 
 from secret_constants import GNEWS_API_KEY
 
-def get_live_url(search_term, start_date, end_date, n):
+def get_live_url(search_term, n):
     # see https://gnews.io/docs/v4#search-endpoint-query-parameters for documentation
-    return f"https://gnews.io/api/v4/search?q={search_term}&from={start_date}&to={end_date}&lang=en&country=us&max=10&apikey={GNEWS_API_KEY}"
+    return f"https://gnews.io/api/v4/search?q={search_term}&lang=en&country=us&max={n}&apikey={GNEWS_API_KEY}"
 
 datetime_format = '%Y-%m-%dT%H:%M:%SZ'
 
 def get_url(search_term, start_date, end_date, n):
     # technically this could be used for historical data but it could get expensive
-    return f"https://gnews.io/api/v4/search?q={search_term}&from={start_date}&to={end_date}&lang=en&country=us&max=10&apikey={GNEWS_API_KEY}"
+    return f"https://gnews.io/api/v4/search?q={search_term}&from={start_date}&to={end_date}&lang=en&country=us&max={n}&apikey={GNEWS_API_KEY}"
 
 def get_gnews(url, debug=False):
     with urllib.request.urlopen(url) as response:

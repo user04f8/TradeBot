@@ -9,11 +9,25 @@ def get_ticker_name_dict():
         for row in csv_reader:
             if '^' in row[0]:
                 continue
-            symbols_names[row[0]] = row[1]
+
+            symbol_name = row[1].split('Inc')[0] \
+                                    .split('Ltd')[0] \
+                                    .split('Corporation')[0] \
+                                    .split('N.A.')[0] \
+                                    .split('Common Stock')[0] \
+                                    .split('Preferred Stock')[0] \
+                                    .split('Ordinary Shares')[0] \
+                                    .split('Depository Shares')[0] \
+                                    .split('(The)')[0] \
+                                    .split('Class A')[0] \
+                                    .split('Each')[0] \
+                                    .strip()
+
+            symbols_names[row[0]] = symbol_name
 
     return symbols_names
 
-def get_name_ticker_dict(min_market_cap=1e9):
+def get_name_ticker_dict(min_market_cap=300e6):
     """
     min_market_cap: minimum market capitalization to include a stock, in USD
     """
@@ -30,11 +44,25 @@ def get_name_ticker_dict(min_market_cap=1e9):
             except ValueError:
                 market_cap = 0
             if market_cap >= min_market_cap:
-                symbols_names[row[1]] = row[0]
+                # basic preprocessing to keep things readable and concise
+                symbol_name = row[1].split('Inc')[0] \
+                                    .split('Ltd')[0] \
+                                    .split('Corporation')[0] \
+                                    .split('N.A.')[0] \
+                                    .split('Common Stock')[0] \
+                                    .split('Preferred Stock')[0] \
+                                    .split('Ordinary Shares')[0] \
+                                    .split('Depositary Shares')[0] \
+                                    .split('(The)')[0] \
+                                    .split('Class A')[0] \
+                                    .split('Each')[0] \
+                                    .strip()
+                
+                symbols_names[symbol_name] = row[0]
 
     return symbols_names
 
-def get_industry_ticker_dict(industry_min_market_cap=1e12, min_market_cap=1e9):
+def get_industry_ticker_dict(industry_min_market_cap=1e12, min_market_cap=5e9):
     industries: dict = {}
     industries_market_caps: dict = {}
 
@@ -70,14 +98,5 @@ def get_industry_ticker_dict(industry_min_market_cap=1e12, min_market_cap=1e9):
 
     return pruned_industries
 
-# from torch import Tensor
-
-# def scale_chain_to_target(chain_t, chain_t_plus_delta_t):
-#     pass
-
-# def custom_loss(preds: Tensor, target: Tensor):
-
-# class PricePreds:
-#     def __init__(self, preds: Tensor):
-#         self.probs = t
-
+def quantize_to_option_strikes(x: float) -> int:
+    return int(round(x / 5) * 5)

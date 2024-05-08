@@ -1,3 +1,7 @@
 DEBUG = True
 
 GPT_MAX_CONTEXT_LEN = 4097
+
+REALNEWS_TAR_PATH = 'G:/TradeBotData/realnews.tar'
+
+BUTTERFLY_STRATEGY_SPREAD = 20

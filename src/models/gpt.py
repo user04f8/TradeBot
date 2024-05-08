@@ -31,7 +31,7 @@ def get_allowed_ids(strs: List[str], model: str) -> List[int]:
         ids.extend(id)
     return ids
 
-def gpt_completion_fn(model: str, input_str: str, steps: int, settings: SerializerSettings, num_samples: int, temp: float) -> List[str]:
+def gpt_completion_fn(model: str, input_str: str, steps: int, settings: SerializerSettings, num_samples: int, temp: float, stock: str = None, summary: str = None) -> List[str]:
     """
     Generate text completions from GPT using OpenAI's API.
     """
@@ -43,8 +43,12 @@ def gpt_completion_fn(model: str, input_str: str, steps: int, settings: Serializ
     logit_bias = {id: 30 for id in get_allowed_ids(allowed_tokens, model)}
 
     if model in ['gpt-3.5-turbo','gpt-4']:
-        sys_message = "You are a helpful assistant that performs time series predictions. The user will provide a sequence and you will predict the remaining sequence. The sequence is represented by decimal strings separated by commas."
-        preprompt = "Please continue the following sequence without producing any additional text. Do not say anything like 'the next terms in the sequence are', just return the numbers. Sequence:\n"
+        sys_message = "You are a helpful assistant that performs time series predictions of stock prices, informed by news summaries. The user will provide a news summary and a sequence and you will predict the remaining sequence. The sequence is represented by decimal strings separated by commas."
+        if stock is not None:
+            preprompt = f"Here's a summary of recent news about {stock}: {summary} \n\n"
+        else:
+            preprompt = ""
+        preprompt += "Please continue the following sequence without producing any additional text. Do not say anything like 'the next terms in the sequence are', just return the numbers. Sequence:\n"
         response = client.chat.completions.create(
             model=model,
             messages=[
@@ -216,7 +220,7 @@ def handle_prediction(pred, expected_length, strict=False):
             return pred[:expected_length]
    
 
-def run_gpt(train, test, model='gpt-3.5-turbo', settings: SerializerSettings = SerializerSettings(), num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True):
+def run_gpt(train, test, model='gpt-3.5-turbo', settings: SerializerSettings = SerializerSettings(), num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True, stock=None, summary=None):
     if not isinstance(train, list):
         # Assume single train/test case
         train = [train]
@@ -247,7 +251,7 @@ def run_gpt(train, test, model='gpt-3.5-turbo', settings: SerializerSettings = S
     completions_list = None
     if num_samples > 0:
         completions_list = []
-        complete = lambda x: gpt_completion_fn(model=model, input_str=x, steps=steps*STEP_MULTIPLIER, settings=settings, num_samples=num_samples, temp=temp)
+        complete = lambda x: gpt_completion_fn(model=model, input_str=x, steps=steps*STEP_MULTIPLIER, settings=settings, num_samples=num_samples, temp=temp, stock=stock, summary=summary)
         if parallel and len(input_strs) > 1:
             print('Running completions in parallel for each input')
             with ThreadPoolExecutor(min(10, len(input_strs))) as p:

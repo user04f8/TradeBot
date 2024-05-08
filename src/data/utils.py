@@ -9,6 +9,6 @@ from datetime import datetime
 @dataclass
 class News:
     headline: str
-    date: datetime
     text: str
+    date: datetime = None
     # source: NewsSource

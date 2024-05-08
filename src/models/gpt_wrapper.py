@@ -9,7 +9,7 @@ class GPTModule:
         #     test, train = init_test_train
         #     self.pretrain(test, train)        # DEPRECATED, no performance gain
     
-    def __call__(self, inpts, len_out=1, num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True):
+    def __call__(self, inpts, len_out=1, num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True, stock=None, summary=None):
         if not isinstance(inpts, list):
             # Assume single case
             inpts = [inpts]
@@ -37,7 +37,7 @@ class GPTModule:
         completions_list = None
         if num_samples > 0:
             completions_list = []
-            complete = lambda x: gpt_completion_fn(model=self.model, input_str=x, steps=steps*STEP_MULTIPLIER, settings=self.settings, num_samples=num_samples, temp=temp)
+            complete = lambda x: gpt_completion_fn(model=self.model, input_str=x, steps=steps*STEP_MULTIPLIER, settings=self.settings, num_samples=num_samples, temp=temp, stock=stock, summary=summary)
             if parallel and len(input_strs) > 1:
                 print('Running completions in parallel for each input')
                 with ThreadPoolExecutor(min(10, len(input_strs))) as p:
