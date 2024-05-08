@@ -16,6 +16,10 @@ ORATS provides a comprehensive dataset of options data for backtesting, of which
 
 For reproducability, data used is currently available via https://data.nasdaq.com/ using the `nasdaq-data-link` package, under "ORATS Smoothed Options Market Quotes" -->
 
+To run the live model, run `src/live.py`.
+
+Tests are included with many files if you run them individually, e.g. search for `if __name__ == '__main__': # TEST`.
+
 # Credits
 
 The LLM numerical serialization concept and portions of `src/data/llm_serializer.py` were adapted from the "Large Language Models Are Zero-Shot Time Series Forecasters" paper (https://arxiv.org/abs/2310.07820); the approach taken by `src/models/gpt.py` builds upon the capabilities developed in this paper. This code falls under the following license:

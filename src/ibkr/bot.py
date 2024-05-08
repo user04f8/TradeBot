@@ -1,6 +1,10 @@
 from ib_insync import *
+from datetime import datetime
 
 from constants import BUTTERFLY_STRATEGY_SPREAD
+
+NEXT_OPTIONS_EXPIRY = '20240510'
+NEXT_OPTIONS_EXPIRY_DATETIME = datetime(2024, 5, 10)
 
 class IB_Interface:
     def __init__(self):
@@ -10,11 +14,26 @@ class IB_Interface:
     def disconnect(self):
         self.ib.disconnect()
 
+
+    def get_local_daily(self, stock_symbol, n_days: int):
+        bars = self.ib.reqHistoricalData(
+            Stock(stock_symbol, exchange='SMART', currency='USD'),
+            endDateTime='',  # Empty string means up to the current moment
+            durationStr=f'{n_days} D',
+            barSizeSetting='1 day',
+            whatToShow='MIDPOINT',
+            useRTH=False,
+            formatDate=2)
+        
+        self.ib.sleep(1)
+
+        return [bar.open for bar in bars]
+
     def get_local_hourly(self, stock_symbol, n_hours: int):
         bars = self.ib.reqHistoricalData(
-            stock_symbol,
+            Stock(stock_symbol, exchange='SMART', currency='USD'),
             endDateTime='',  # Empty string means up to the current moment
-            durationStr=f'{n_hours} H',
+            durationStr=f'{n_hours // 24} D',
             barSizeSetting='1 hour',
             whatToShow='MIDPOINT',
             useRTH=False,
@@ -25,11 +44,11 @@ class IB_Interface:
         return [bar.open for bar in bars]
         
     
-    def get_local_minutely(self, stock_symbol, n_hours: int):
+    def get_local_minutely(self, stock_symbol, n_mins: int):
         bars = self.ib.reqHistoricalData(
             stock_symbol,
             endDateTime='',  # Empty string means up to the current moment
-            durationStr=f'{n_hours} H',
+            durationStr=f'{60 * n_mins} S',
             barSizeSetting='1 min',
             whatToShow='MIDPOINT',
             useRTH=False,
@@ -41,7 +60,7 @@ class IB_Interface:
             
         
 
-    def buy_butterfly(self, stock_symbol, predicted_price, amount_to_purchase, expiry_date='20240510', spread=BUTTERFLY_STRATEGY_SPREAD):
+    def buy_butterfly(self, stock_symbol, predicted_price, amount_to_purchase, expiry_date=NEXT_OPTIONS_EXPIRY, spread=BUTTERFLY_STRATEGY_SPREAD):
         """
         Automatically purchases a butterfly spread about a given predicted_price
 

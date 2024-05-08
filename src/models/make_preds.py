@@ -8,6 +8,7 @@ def make_pred(stock_history, len_out=2, **kwargs):
     """
     returns Tuple[sample, median] for a given nparray or a Tuple[samples, medians] for an iterable over arrays
     """
+    stock_history = np.array(stock_history, dtype=np.float64)
     samples, medians = gpt_module(stock_history, len_out=len_out, **kwargs)
     return samples, medians
 
