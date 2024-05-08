@@ -15,28 +15,6 @@ def get_valid_tickers():
 
     return symbols
 
-def get_ticker_name_dict():
-    symbols_names: dict = {}
-
-    with open('markets/nasdaq_screener.csv') as f:
-        csv_reader = csv.reader(f)
-        next(csv_reader)  # skip header
-        for row in csv_reader:
-            symbols_names[row[0]] = row[1]
-
-    return symbols_names
-
-def get_name_ticker_dict():
-    symbols_names: dict = {}
-
-    with open('markets/nasdaq_screener.csv') as f:
-        csv_reader = csv.reader(f)
-        next(csv_reader)  # skip header
-        for row in csv_reader:
-            symbols_names[row[1]] = row[0]
-
-    return symbols_names
-
 def download_market(stocks, start_date, end_date, save_dir):
     stock_data = {}
 
