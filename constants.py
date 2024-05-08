@@ -1,1 +1,3 @@
 DEBUG = True
+
+GPT_MAX_CONTEXT_LEN = 4097

@@ -1,7 +1,7 @@
 
 import pickle
 import datetime
-from news import NewsSource, News
+from dataset.utils import NewsSource, News
 
 headline = "Manufacturing for tomorrow: Microsoft announces new industrial AI innovations from the cloud to the factory floor"
 date = datetime.datetime(2024, 4, 17)

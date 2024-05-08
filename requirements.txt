@@ -3,4 +3,5 @@ numpy
 pandas
 openai
 torch
-
+jax
+tiktoken
