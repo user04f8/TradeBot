@@ -128,7 +128,7 @@ class Scaler:
     transform: callable = lambda x: x
     inv_transform: callable = lambda x: x    
 
-def get_scaler(history, alpha=0.95, beta=0.3, basic=False):
+def get_scaler(history, alpha=0.95, beta=0.3, basic=True):
     """
     Generate a Scaler object based on given history data.
 
@@ -220,7 +220,7 @@ def handle_prediction(pred, expected_length, strict=False):
             return pred[:expected_length]
    
 
-def run_gpt(train, test, model='gpt-3.5-turbo', settings: SerializerSettings = SerializerSettings(), num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True, stock=None, summary=None):
+def run_gpt(train, test, model='gpt-3.5-turbo', settings: SerializerSettings = SerializerSettings(), num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=True, parallel=True, stock=None, summary=None):
     if not isinstance(train, list):
         # Assume single train/test case
         train = [train]

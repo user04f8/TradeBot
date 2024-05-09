@@ -75,6 +75,6 @@ try:
         else:    
             ib_int.buy_butterfly(**strategy)
 
-        ib_int.ib.sleep(15*60)
+        ib_int.ib.sleep(15*60)  # wait 15 minutes otherwise we just burn through our API usages way too quickly
 finally:
     ib_int.disconnect()

@@ -1,4 +1,5 @@
 from src.models.gpt import *
+from constants import GPT_N_PARALLEL_TIMELINES
 
 class GPTModule:
     def __init__(self, model='gpt-3.5-turbo', settings: SerializerSettings = SerializerSettings()):
@@ -9,7 +10,7 @@ class GPTModule:
         #     test, train = init_test_train
         #     self.pretrain(test, train)        # DEPRECATED, no performance gain
     
-    def __call__(self, inpts, len_out=1, num_samples=10, temp=0.7, alpha=0.95, beta=0.3, basic=False, parallel=True, stock=None, summary=None):
+    def __call__(self, inpts, len_out=1, num_samples=GPT_N_PARALLEL_TIMELINES, temp=0.7, alpha=0.95, beta=0.3, basic=True, parallel=True, stock=None, summary=None):
         if not isinstance(inpts, list):
             # Assume single case
             inpts = [inpts]
@@ -54,8 +55,6 @@ class GPTModule:
             
             preds = [[completion_to_pred(completion, scaler.inv_transform) for completion in completions] for completions, scaler in zip(completions_list, scalers)]
             # print(preds, completions_list, input_strs)
-
-
             
             samples = [pd.DataFrame(preds[i], columns=dummy_test[i].index) for i in range(len(preds))]
             medians = [sample.median(axis=0) for sample in samples]

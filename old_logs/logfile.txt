@@ -1,0 +1,76 @@
+**************
+prediction: 140
+variance=0.00019709708439904762 uncertainty=0.1427235116317055
+expected gain: -0.1049957275390625
+**************
+**************
+prediction: 375
+variance=0.0007536637071050597 uncertainty=0.017320369795594478
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 100
+variance=3.8038705680012543 uncertainty=0.01086798939410993
+expected gain: -0.035003662109375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -274.9649963378906
+Simulated payoff for trade resulted in -274.9649963378906
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=0.014441999598809187 uncertainty=0.013178049154423851
+expected gain: -2.1298980712890625
+**************
+**************
+prediction: 55
+variance=0.008911911285522899 uncertainty=0.41280383302420104
+expected gain: -6.595001220703125
+**************
+**************
+prediction: 230
+variance=6.814351723252996 uncertainty=2.3670167557876992e+197
+expected gain: -33.69000244140625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -113.69000244140625
+Simulated payoff for trade resulted in -113.69000244140625
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 110
+variance=0.0003455160165947189 uncertainty=7.49985281423009
+expected gain: -1.720001220703125
+**************
+**************
+prediction: 45
+variance=0.00012663212286127107 uncertainty=0.005478951166774439
+expected gain: -1.1590003967285156
+**************
+**************
+prediction: 490
+variance=0.0010113977351392661 uncertainty=4.903850831276281e+199
+expected gain: -3.394989013671875
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -441.6050109863281
+Simulated payoff for trade resulted in -441.6050109863281
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 50
+variance=0.0015304962725773644 uncertainty=0.0027896994757966977
+expected gain: -0.47499847412109375
+**************
+**************
+prediction: 155
+variance=0.00010634580771005772 uncertainty=0.0002837679670039555
+expected gain: -0.089996337890625
+**************
+**************
+prediction: 595
+variance=0.006723155068479662 uncertainty=3898.18383914432
+expected gain: -3.010009765625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -443.010009765625
+Simulated payoff for trade resulted in -443.010009765625
+!!!!!!!!!!!!!!!!!

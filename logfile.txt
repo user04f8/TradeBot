@@ -1,0 +1,1323 @@
+**************
+prediction: 140
+variance=0.0004186546114519216 uncertainty=0.01579707011638934
+expected gain: -0.1049957275390625
+**************
+**************
+prediction: 375
+variance=12.398639426217404 uncertainty=0.4322215703710408
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 100
+variance=3.812032494154211 uncertainty=0.006448515593337044
+expected gain: -0.035003662109375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -39.964996337890625
+Simulated payoff for trade resulted in -39.964996337890625
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=0.009479325052717553 uncertainty=0.7225325248611714
+expected gain: -2.1298980712890625
+**************
+**************
+prediction: 55
+variance=0.002308672571994489 uncertainty=4.1213905634646134e+198
+expected gain: -6.595001220703125
+**************
+**************
+prediction: 240
+variance=0.005046425105883112 uncertainty=2.149941338520614e+199
+expected gain: -23.69000244140625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -113.69000244140625
+Simulated payoff for trade resulted in -113.69000244140625
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 45
+variance=0.00010149148601414807 uncertainty=0.006386923449987894
+expected gain: -1.1590003967285156
+**************
+**************
+prediction: 490
+variance=0.008540117531813142 uncertainty=6.971741618489767e+195
+expected gain: -3.394989013671875
+**************
+**************
+prediction: 50
+variance=3.182515604785136e-05 uncertainty=0.001904751368526834
+expected gain: -0.47499847412109375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -0.47499847412109375
+Simulated payoff for trade resulted in -0.47499847412109375
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 450
+variance=0.0013887338141456702 uncertainty=0.0423496219203715
+expected gain: -2.8699951171875
+**************
+**************
+prediction: 595
+variance=0.0009689227974945464 uncertainty=0.18260639285958294
+expected gain: -3.010009765625
+**************
+**************
+prediction: 375
+variance=12.425684472999299 uncertainty=0.220813540847624
+expected gain: -1.30999755859375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -73.69000244140625
+Simulated payoff for trade resulted in -73.69000244140625
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=98.41237099727566 uncertainty=0.02726879639770471
+expected gain: -2.1298980712890625
+**************
+**************
+prediction: 155
+variance=0.00015048301280513806 uncertainty=0.3003503351121413
+expected gain: -0.089996337890625
+**************
+**************
+prediction: 35280385009397416879006386764321042931510422393258826047077949972383318121088616420101265532806758400
+variance=0.0 uncertainty=7.81253097007239e+197
+expected gain: -3.528038500939742e+100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -230.85000610351562
+Simulated payoff for trade resulted in -230.85000610351562
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 380
+variance=12.411325988338847 uncertainty=0.03135664502481143
+expected gain: -3.69000244140625
+**************
+**************
+prediction: 490
+variance=16.135312548657293 uncertainty=3.832992324222172e+197
+expected gain: -3.394989013671875
+**************
+**************
+prediction: 50
+variance=2.2675939818375475 uncertainty=0.0009526926606145118
+expected gain: -1.5499992370605469
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -1.5499992370605469
+Simulated payoff for trade resulted in -1.5499992370605469
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 260
+variance=19.659061251344397 uncertainty=0.018339149518310633
+expected gain: -0.899993896484375
+**************
+**************
+prediction: 150
+variance=0.005523675468501576 uncertainty=0.2942580046327963
+expected gain: -2.1298980712890625
+**************
+**************
+prediction: 155
+variance=0.00012768333090286117 uncertainty=0.0027897060123832002
+expected gain: -1.55999755859375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -1.55999755859375
+Simulated payoff for trade resulted in -1.55999755859375
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.0011688417824793308 uncertainty=0.25324870241343217
+expected gain: -12.129898071289062
+**************
+**************
+prediction: 145
+variance=0.004743301888421489 uncertainty=0.3964361947411841
+expected gain: -7.1298980712890625
+**************
+**************
+prediction: 405
+variance=0.0007129499117977517 uncertainty=0.02133426850158091
+expected gain: -1.829986572265625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -1.829986572265625
+Simulated payoff for trade resulted in -1.829986572265625
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 260
+variance=0.001832744444448231 uncertainty=0.014534460289884994
+expected gain: -0.899993896484375
+**************
+**************
+prediction: 195
+variance=0.00041503294891253976 uncertainty=1.973962751694574e+199
+expected gain: -2.32000732421875
+**************
+**************
+prediction: 260
+variance=16.257065391949176 uncertainty=0.02581166865039834
+expected gain: -0.899993896484375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -0.899993896484375
+Simulated payoff for trade resulted in -0.899993896484375
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 190
+variance=0.00032669823343451656 uncertainty=0.6417800311421722
+expected gain: -2.67999267578125
+**************
+**************
+prediction: 190
+variance=0.0016362078102081462 uncertainty=0.2549839049944509
+expected gain: -2.67999267578125
+**************
+**************
+prediction: 190
+variance=6.202830069545125 uncertainty=0.01605055801618708
+expected gain: -2.67999267578125
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -2.67999267578125
+Simulated payoff for trade resulted in -2.67999267578125
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.011187174974561198 uncertainty=1.693855939442805
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 195
+variance=0.0017498686494689772 uncertainty=0.021651259405160564
+expected gain: -2.32000732421875
+**************
+**************
+prediction: 110
+variance=0.02459091394589964 uncertainty=0.25859287402056425
+expected gain: -4.6699981689453125
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -89.66999816894531
+Simulated payoff for trade resulted in -89.66999816894531
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 235
+variance=0.011959127784183376 uncertainty=1.0242119757208048
+expected gain: -11.07000732421875
+**************
+**************
+prediction: 260
+variance=0.001180479424532558 uncertainty=2.5794488144524987e+199
+expected gain: -1.0
+**************
+**************
+prediction: 90
+variance=3.650544113739703 uncertainty=0.5438569668414759
+expected gain: -4.69000244140625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -140.30999755859375
+Simulated payoff for trade resulted in -140.30999755859375
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.00042083416832206655 uncertainty=0.7439416437900908
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 375
+variance=12.123724212249469 uncertainty=0.4970247387810854
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 135
+variance=0.00029986042350561967 uncertainty=0.011979475798016025
+expected gain: -1.1699981689453125
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -1.1699981689453125
+Simulated payoff for trade resulted in -1.1699981689453125
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0013020384193643696 uncertainty=0.11565475777569229
+expected gain: -1.30999755859375
+**************
+**************
+prediction: 85
+variance=0.00010445375618823196 uncertainty=0.1639136775068487
+expected gain: -9.69000244140625
+**************
+**************
+prediction: 495
+variance=0.004685193539759102 uncertainty=0.35645977444786925
+expected gain: -2.339996337890625
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -122.33999633789062
+Simulated payoff for trade resulted in -122.33999633789062
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 380
+variance=12.425067282636872 uncertainty=0.008986265209352437
+expected gain: -3.69000244140625
+**************
+**************
+prediction: 195
+variance=0.0003123263154400722 uncertainty=0.007477323344461712
+expected gain: -2.32000732421875
+**************
+**************
+prediction: 375
+variance=0.0005075154199732973 uncertainty=0.5800248824996074
+expected gain: -1.30999755859375
+**************
+!!!!!!!!!!!!!!!!!
+Trade: -181.30999755859375
+Simulated payoff for trade resulted in -181.30999755859375
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.004861543706647234 uncertainty=0.026911895258287875
+expected gain: 0.1050
+**************
+**************
+prediction: 380
+variance=0.0038508642312771275 uncertainty=0.6770824754935508
+expected gain: 3.6900
+**************
+**************
+prediction: 100
+variance=0.0017555659069356667 uncertainty=0.005339376167868035
+expected gain: 0.0350
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'XOM', 'predicted_price': 100, 'amount_to_purchase': 1}
+Simulated diff for trade resulted in 0.0350
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=0.0010219867836888956 uncertainty=0.17759655534310262
+expected gain: 2.1299
+**************
+**************
+prediction: 60
+variance=1.9877897883632965 uncertainty=0.34227864931199853
+expected gain: 1.5950
+**************
+**************
+prediction: 260
+variance=0.07530334084699467 uncertainty=1684.3872049908823
+expected gain: 3.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 150, 'amount_to_purchase': 1}
+Simulated diff for trade resulted in 113.6900
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.00047470467100038134 uncertainty=0.1707737147660162
+expected gain: 0.1050
+**************
+**************
+prediction: 375
+variance=12.130904198979758 uncertainty=0.568819577247982
+expected gain: 1.3100
+**************
+**************
+prediction: 100
+variance=0.0016408347802360154 uncertainty=0.014538399838819618
+expected gain: 0.0350
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'XOM', 'predicted_price': 100, 'amount_to_purchase': 1}
+Actual: 100.03500366210938
+Simulated diff for trade resulted in 0.0350
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.0006567026655410734 uncertainty=0.12728170086995705
+expected gain: 12.1299
+**************
+**************
+prediction: 60
+variance=0.00020689463513968943 uncertainty=0.008837951183434606
+expected gain: 1.5950
+**************
+**************
+prediction: 230
+variance=6.363083419717077 uncertainty=2.1279772677425774e+197
+expected gain: 33.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'UBER', 'predicted_price': 60, 'amount_to_purchase': 1}
+Actual: 263.69000244140625
+Simulated diff for trade resulted in 203.6900
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 110
+variance=0.00042120047737261935 uncertainty=0.0048706091565270115
+expected gain: 1.7200
+**************
+**************
+prediction: 45
+variance=0.00012261989858457152 uncertainty=0.007694110072268145
+expected gain: 1.1590
+**************
+**************
+prediction: 485
+variance=0.004486771464852265 uncertainty=3.938003303660444e+199
+expected gain: 1.6050
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'NKE', 'predicted_price': 110, 'amount_to_purchase': 1}
+Actual: 486.6050109863281
+Simulated diff for trade resulted in 376.6050
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0007131352592910231 uncertainty=0.014273424546711672
+expected gain: 1.3100
+**************
+**************
+prediction: 155
+variance=4.8369539830224525e-05 uncertainty=0.007967000649368413
+expected gain: 0.0900
+**************
+**************
+prediction: 375
+variance=12.326012944001361 uncertainty=0.6529398280107431
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'ABBV', 'predicted_price': 155, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 221.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.03014254451538444 uncertainty=0.31995847860560295
+expected gain: 12.1299
+**************
+**************
+prediction: 375
+variance=0.0006707871668812666 uncertainty=0.01578948625498137
+expected gain: 1.3100
+**************
+**************
+prediction: 485
+variance=0.0009596968924484295 uncertainty=4.8649317277584215e+199
+expected gain: 1.6050
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 486.6050109863281
+Simulated diff for trade resulted in 111.6050
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 50
+variance=13136.794628559577 uncertainty=0.0024187681485099435
+expected gain: 1.5500
+**************
+**************
+prediction: 260
+variance=16.221992376258857 uncertainty=0.029708557844980516
+expected gain: 0.9000
+**************
+**************
+prediction: 150
+variance=0.00018756193741797353 uncertainty=0.2165984393651411
+expected gain: 2.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 150, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 2.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 160
+variance=0.0028038930491501046 uncertainty=1266.4842778575978
+expected gain: 3.4400
+**************
+**************
+prediction: 150
+variance=99.5702722508341 uncertainty=0.029615241389851322
+expected gain: 2.1299
+**************
+**************
+prediction: 150
+variance=0.01556110343309781 uncertainty=0.20288467611508335
+expected gain: 2.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 150, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 2.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 405
+variance=0.002109431469084836 uncertainty=0.0775655478089369
+expected gain: 1.8300
+**************
+**************
+prediction: 130
+variance=0.0008256364509719128 uncertainty=0.28838662236505197
+expected gain: 6.1700
+**************
+**************
+prediction: 195
+variance=0.0010007762408321024 uncertainty=0.02044317701062322
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 160
+variance=12.043066162825571 uncertainty=0.0026882382332837585
+expected gain: 0.5300
+**************
+**************
+prediction: 265
+variance=16.34472817886289 uncertainty=0.1248978197791812
+expected gain: 4.1000
+**************
+**************
+prediction: 195
+variance=0.0004871554398236271 uncertainty=1531.8089976661036
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'TMUS', 'predicted_price': 160, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 32.6800
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=6.5806783096564265 uncertainty=0.015620942828528992
+expected gain: 2.3200
+**************
+**************
+prediction: 195
+variance=652.3692441082484 uncertainty=0.007647823366717676
+expected gain: 2.3200
+**************
+**************
+prediction: 380
+variance=1231.1109015910677 uncertainty=0.010792411350628894
+expected gain: 3.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 181.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 190
+variance=0.002077180318427662 uncertainty=0.037469623312091034
+expected gain: 2.6800
+**************
+**************
+prediction: 105
+variance=0.0022924377196403972 uncertainty=0.14366771320931354
+expected gain: 0.3300
+**************
+**************
+prediction: 245
+variance=7.935793623617523 uncertainty=1.2383910011598736
+expected gain: 1.0700
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 190, 'amount_to_purchase': 1}
+Actual: 246.07000732421875
+Simulated diff for trade resulted in 56.0700
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 260
+variance=0.0009006169575149883 uncertainty=4.194161192037122e+199
+expected gain: 1.0000
+**************
+**************
+prediction: 95
+variance=0.024035301700700368 uncertainty=0.13623430391029437
+expected gain: 0.3100
+**************
+**************
+prediction: 380
+variance=0.0037317602213746636 uncertainty=0.026003846144217024
+expected gain: 3.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 380, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 3.6900
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0006549066322275843 uncertainty=0.3517538425786226
+expected gain: 1.3100
+**************
+**************
+prediction: 375
+variance=0.001172512808595452 uncertainty=0.021269329412805224
+expected gain: 1.3100
+**************
+**************
+prediction: 95
+variance=0.010752602045448372 uncertainty=0.20592042554726483
+expected gain: 0.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 94.69000244140625
+Simulated diff for trade resulted in 280.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.00017468588119028608 uncertainty=0.46651082079522815
+expected gain: 1.3100
+**************
+**************
+prediction: 150
+variance=0.0008275504957080034 uncertainty=0.7050144151348756
+expected gain: 2.1299
+**************
+**************
+prediction: 195
+variance=0.0004899597165054589 uncertainty=0.023818404424887443
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0028265697461159756 uncertainty=0.2176946038416454
+expected gain: 1.3100
+**************
+**************
+prediction: 195
+variance=0.00052080676000571 uncertainty=2.9057596159116154e+199
+expected gain: 2.3200
+**************
+**************
+prediction: 375
+variance=0.0008912950074368311 uncertainty=0.37487590103435536
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 1.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 145
+variance=0.013127515938226943 uncertainty=0.43003090331808436
+expected gain: 7.1299
+**************
+**************
+prediction: 50
+variance=1.581732170624918 uncertainty=196.35955367630905
+expected gain: 1.5550
+**************
+**************
+prediction: 145
+variance=0.00033495532049648645 uncertainty=0.01560500323097876
+expected gain: 1.4750
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'PG', 'predicted_price': 145, 'amount_to_purchase': 1}
+Actual: 146.47500610351562
+Simulated diff for trade resulted in 1.4750
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 145
+variance=0.00031379388451961406 uncertainty=0.302892404605736
+expected gain: 7.1299
+**************
+**************
+prediction: 195
+variance=0.0009863166891913703 uncertainty=1.9192807575426565e+199
+expected gain: 2.3200
+**************
+**************
+prediction: 95
+variance=23809.503071788095 uncertainty=0.00819563221351553
+expected gain: 0.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 145, 'amount_to_purchase': 1}
+Actual: 94.69000244140625
+Simulated diff for trade resulted in 50.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 815
+variance=2114.7526173764404 uncertainty=0.04232602900129582
+expected gain: 1.3700
+**************
+**************
+prediction: 145
+variance=0.005469758993498165 uncertainty=0.32075730509925293
+expected gain: 7.1299
+**************
+**************
+prediction: 145
+variance=4.556964865920048 uncertainty=1.0215826066238817e+197
+expected gain: 7.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 145, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 7.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 95
+variance=2.691561697109629 uncertainty=0.4929051515981901
+expected gain: 15.1900
+**************
+**************
+prediction: 250
+variance=0.0036655747160809567 uncertainty=0.1637868372850654
+expected gain: 0.4050
+**************
+**************
+prediction: 595
+variance=0.0006548912758349902 uncertainty=0.29816276332764724
+expected gain: 3.0100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'TSLA', 'predicted_price': 250, 'amount_to_purchase': 1}
+Actual: 598.010009765625
+Simulated diff for trade resulted in 348.0100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 190
+variance=653.0246708714353 uncertainty=0.009104925530602506
+expected gain: 2.6800
+**************
+**************
+prediction: 130
+variance=0.0026094428180683344 uncertainty=0.14509243591814205
+expected gain: 6.1700
+**************
+**************
+prediction: 260
+variance=287.3324891030806 uncertainty=0.023933094339960447
+expected gain: 0.9000
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'ABNB', 'predicted_price': 130, 'amount_to_purchase': 1}
+Actual: 260.8999938964844
+Simulated diff for trade resulted in 130.9000
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0009045287863148532 uncertainty=0.013390466819968076
+expected gain: 1.3100
+**************
+**************
+prediction: 380
+variance=0.002552630523340257 uncertainty=3.7732875405460365e+199
+expected gain: 3.6900
+**************
+**************
+prediction: 500
+variance=19.792470253015463 uncertainty=1.192885595972184
+expected gain: 2.6600
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 497.3399963378906
+Simulated diff for trade resulted in 122.3400
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0015309827939546602 uncertainty=0.006898504253550911
+expected gain: 1.3100
+**************
+**************
+prediction: 195
+variance=0.0012068905769474568 uncertainty=0.03513758682347183
+expected gain: 2.3200
+**************
+**************
+prediction: 485
+variance=15.821291970321754 uncertainty=3176.7237760634775
+expected gain: 1.6050
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 486.6050109863281
+Simulated diff for trade resulted in 111.6050
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=0.00048302422043647265 uncertainty=999.1710240134491
+expected gain: 12.1299
+**************
+**************
+prediction: 375
+variance=970.0357044227895 uncertainty=0.04192884629490971
+expected gain: 1.3100
+**************
+**************
+prediction: 595
+variance=0.001015519201337926 uncertainty=5.1166987532967135e+199
+expected gain: 3.0100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 598.010009765625
+Simulated diff for trade resulted in 223.0100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=0.0010428403910597384 uncertainty=0.019545808472434076
+expected gain: 2.3200
+**************
+**************
+prediction: 260
+variance=0.002965162951369339 uncertainty=1.2566932348496407e+199
+expected gain: 1.0000
+**************
+**************
+prediction: 140
+variance=0.0020148521406106283 uncertainty=0.02140128940373328
+expected gain: 0.1050
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 139.89500427246094
+Simulated diff for trade resulted in 55.1050
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 380
+variance=0.0016648093828589543 uncertainty=0.014991224713057406
+expected gain: 3.6900
+**************
+**************
+prediction: 375
+variance=0.001183099831697875 uncertainty=0.04249419332858034
+expected gain: 1.3100
+**************
+**************
+prediction: 150
+variance=0.010446788801059372 uncertainty=0.30614723436873936
+expected gain: 2.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 380, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 227.8701
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 95
+variance=0.0008925330523650797 uncertainty=0.33350822809476477
+expected gain: 15.1900
+**************
+**************
+prediction: 140
+variance=0.0017315275947332829 uncertainty=1.5154469745967739e+199
+expected gain: 12.1299
+**************
+**************
+prediction: 195
+variance=0.0007820426596485132 uncertainty=0.01652504163075458
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=0.05437503851844052 uncertainty=1.33390397066056
+expected gain: 20.4100
+**************
+**************
+prediction: 150
+variance=0.00045505504902845436 uncertainty=1.4911510308213583e+199
+expected gain: 2.1299
+**************
+**************
+prediction: 195
+variance=0.00034834374407248053 uncertainty=0.02355143728477619
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=6.502136128351416 uncertainty=0.0728091180566556
+expected gain: 2.3200
+**************
+**************
+prediction: 195
+variance=0.001072635830804312 uncertainty=0.7417648336672165
+expected gain: 2.3200
+**************
+**************
+prediction: 145
+variance=0.0006653293015415969 uncertainty=0.3163706606929785
+expected gain: 7.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 145, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 7.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 60
+variance=0.004377730216901425 uncertainty=0.3766546325498225
+expected gain: 1.5950
+**************
+**************
+prediction: 375
+variance=0.0005498635123830825 uncertainty=0.041833563086987685
+expected gain: 1.3100
+**************
+**************
+prediction: 195
+variance=0.00037989185674320805 uncertainty=0.4524992070925903
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 182.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.001455053987641829 uncertainty=0.7864146630724645
+expected gain: 1.3100
+**************
+**************
+prediction: 375
+variance=12.211710149075852 uncertainty=0.5355022155445989
+expected gain: 1.3100
+**************
+**************
+prediction: 375
+variance=0.0002301023302421344 uncertainty=0.18646712049868308
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 1.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=0.002792709040528715 uncertainty=0.5402315639393328
+expected gain: 2.3200
+**************
+**************
+prediction: 375
+variance=0.0005794740926227178 uncertainty=0.7010070303004483
+expected gain: 1.3100
+**************
+**************
+prediction: 190
+variance=0.0007633766929849939 uncertainty=0.026033783003542157
+expected gain: 2.6800
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 190, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.6800
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 380
+variance=0.0030091958946330023 uncertainty=0.019691862970541287
+expected gain: 3.6900
+**************
+**************
+prediction: 30
+variance=0.7197760776007047 uncertainty=1.8591666617428273
+expected gain: 1.3302
+**************
+**************
+prediction: 150
+variance=0.000653400281447112 uncertainty=0.5688075966587605
+expected gain: 2.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 380, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 227.8701
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 135
+variance=0.0003185789716761577 uncertainty=0.31674333136820176
+expected gain: 17.1299
+**************
+**************
+prediction: 150
+variance=0.004908286301931852 uncertainty=992.6662868459441
+expected gain: 2.1299
+**************
+**************
+prediction: 375
+variance=1228.3425656001043 uncertainty=0.2041453316751401
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 135, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 241.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 95
+variance=3.5925747007033655 uncertainty=0.4642254269151464
+expected gain: 0.3100
+**************
+**************
+prediction: 250
+variance=0.0029504830597669165 uncertainty=0.4357775194941565
+expected gain: 0.4050
+**************
+**************
+prediction: 380
+variance=0.006399193776481962 uncertainty=0.012715014746032304
+expected gain: 3.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 380, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 3.6900
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0007541599738130196 uncertainty=0.010512913940724592
+expected gain: 1.3100
+**************
+**************
+prediction: 410
+variance=0.004308358266396845 uncertainty=0.03373559182940013
+expected gain: 3.1700
+**************
+**************
+prediction: 375
+variance=0.0009235523434520575 uncertainty=0.011171426777696314
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 1.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0013007150414765373 uncertainty=0.1508290833312443
+expected gain: 1.3100
+**************
+**************
+prediction: 250
+variance=0.01907170631049555 uncertainty=0.5509565367580853
+expected gain: 0.4050
+**************
+**************
+prediction: 195
+variance=0.0004934650623577531 uncertainty=0.020092081570056767
+expected gain: 2.3200
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.3200
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 155
+variance=0.0005447409373082594 uncertainty=13.816249178521002
+expected gain: 32.6100
+**************
+**************
+prediction: 195
+variance=6.527026888179439 uncertainty=0.013438093859383637
+expected gain: 2.3200
+**************
+**************
+prediction: 380
+variance=12.410925666527785 uncertainty=0.49370464833616046
+expected gain: 3.6900
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 181.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 60
+variance=1.9446835582363662 uncertainty=0.38142298072821584
+expected gain: 1.5950
+**************
+**************
+prediction: 95
+variance=0.001026788699199914 uncertainty=0.21047323440795526
+expected gain: 15.1900
+**************
+**************
+prediction: 190
+variance=6.080713635019323 uncertainty=0.14604897301164205
+expected gain: 2.6800
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'ABT', 'predicted_price': 95, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 97.6800
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.0003452362064811889 uncertainty=0.032847297877635226
+expected gain: 1.3100
+**************
+**************
+prediction: 155
+variance=0.0008240132514465981 uncertainty=0.0026475889136390912
+expected gain: 1.5600
+**************
+**************
+prediction: 375
+variance=0.000935462744442331 uncertainty=0.41932234142302566
+expected gain: 1.3100
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'JNJ', 'predicted_price': 155, 'amount_to_purchase': 1}
+Actual: 376.30999755859375
+Simulated diff for trade resulted in 221.3100
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=0.0028347731907563773 uncertainty=1.118984915801785
+expected gain: 2.3200
+**************
+**************
+prediction: 195
+variance=0.00017666943095599643 uncertainty=0.029192520257968275
+expected gain: 2.3200
+**************
+**************
+prediction: 105
+variance=0.0007908116863054212 uncertainty=8.234548910900708
+expected gain: 0.3300
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 105.33000183105469
+Simulated diff for trade resulted in 89.6700
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=0.00034920634014457816 uncertainty=0.011664782054270214
+expected gain: 1.3100
+**************
+**************
+prediction: 500
+variance=37.41937254475058 uncertainty=0.08482797420899485
+expected gain: 2.6600
+**************
+**************
+prediction: 140
+variance=0.001134402634070921 uncertainty=1014.9663005001044
+expected gain: 12.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'MSFT', 'predicted_price': 375, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 222.8701
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 150
+variance=0.0009985331170624492 uncertainty=0.3437145088238882
+expected gain: 2.1299
+**************
+**************
+prediction: 170
+variance=10.499839515215392 uncertainty=0.004829018511967738
+expected gain: 0.2800
+**************
+**************
+prediction: 150
+variance=0.008922098283557693 uncertainty=1.2268996766566516e+199
+expected gain: 2.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 150, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 2.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 95
+variance=7544.800774300568 uncertainty=0.01866490142726325
+expected gain: 0.3100
+**************
+**************
+prediction: 215
+variance=5.546161510128444 uncertainty=9.491860944932913
+expected gain: 46.0000
+**************
+**************
+prediction: 140
+variance=4.171975354487978 uncertainty=0.27690207566331126
+expected gain: 12.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 140, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 12.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 110
+variance=0.00015453989105873077 uncertainty=0.01150872867991954
+expected gain: 1.7200
+**************
+**************
+prediction: 140
+variance=0.012278331456923855 uncertainty=0.31892069429473785
+expected gain: 12.1299
+**************
+**************
+prediction: 140
+variance=6.147224354398312 uncertainty=0.2267606165737765
+expected gain: 12.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'NKE', 'predicted_price': 110, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 42.1299
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 110
+variance=0.0019039577828734269 uncertainty=5410439.241656275
+expected gain: 1.7200
+**************
+**************
+prediction: 150
+variance=0.013647338152853237 uncertainty=0.11107742780654413
+expected gain: 2.1299
+**************
+**************
+prediction: 40
+variance=9.753779378708872e-05 uncertainty=0.04379873833855918
+expected gain: 0.5350
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'HSBC', 'predicted_price': 40, 'amount_to_purchase': 1}
+Actual: 40.53499984741211
+Simulated diff for trade resulted in 0.5350
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=0.0005086256831689928 uncertainty=0.02376792744461433
+expected gain: 2.3200
+**************
+**************
+prediction: 105
+variance=0.0007508130166674946 uncertainty=0.14119575073443774
+expected gain: 0.3300
+**************
+**************
+prediction: 140
+variance=4.09385745874544 uncertainty=1039.2278412360583
+expected gain: 12.1299
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 195, 'amount_to_purchase': 1}
+Actual: 152.12989807128906
+Simulated diff for trade resulted in 42.8701
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 375
+variance=12.340472170803523 uncertainty=0.33784461162663454
+expected gain: 1.3100
+**************
+**************
+prediction: 140
+variance=0.0024779337955611568 uncertainty=0.5431235132943546
+expected gain: 12.1299
+**************
+**************
+prediction: 260
+variance=8.444464915860936 uncertainty=2.3422182928342474
+expected gain: 1.0000
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 140, 'amount_to_purchase': 1}
+Actual: 261.0
+Simulated diff for trade resulted in 121.0000
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 195
+variance=0.00021864594753732617 uncertainty=0.5864886686616422
+expected gain: 2.3200
+**************
+**************
+prediction: 150
+variance=0.00015952537041621757 uncertainty=0.4783167730039029
+expected gain: 2.1299
+**************
+**************
+prediction: 190
+variance=0.0005380705883282959 uncertainty=0.0148379887789588
+expected gain: 2.6800
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AAPL', 'predicted_price': 190, 'amount_to_purchase': 1}
+Actual: 192.67999267578125
+Simulated diff for trade resulted in 2.6800
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 140
+variance=4.058089201832608 uncertainty=0.2829226049280877
+expected gain: 12.1299
+**************
+**************
+prediction: 145
+variance=0.02303931851606536 uncertainty=0.2757806129832406
+expected gain: 7.1299
+**************
+**************
+prediction: 490
+variance=0.00829970861330076 uncertainty=0.9739115221378879
+expected gain: 3.3950
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'AMZN', 'predicted_price': 145, 'amount_to_purchase': 1}
+Actual: 486.6050109863281
+Simulated diff for trade resulted in 341.6050
+!!!!!!!!!!!!!!!!!
+**************
+prediction: 45
+variance=1.469188142606758 uncertainty=0.006049691058368062
+expected gain: 1.1590
+**************
+**************
+prediction: 380
+variance=0.0017652206800961576 uncertainty=0.017739615910451173
+expected gain: 3.6900
+**************
+**************
+prediction: 455
+variance=0.0009772571284728804 uncertainty=0.014988471823863512
+expected gain: 2.1300
+**************
+!!!!!!!!!!!!!!!!!
+Trade: {'stock_symbol': 'LMT', 'predicted_price': 455, 'amount_to_purchase': 1}
+Actual: 452.8699951171875
+Simulated diff for trade resulted in 2.1300
+!!!!!!!!!!!!!!!!!

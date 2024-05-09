@@ -1,7 +1,9 @@
 
 import pickle
 import datetime
-from dataset.utils import NewsSource, News
+from data.utils import News
+
+# This file merely generates a dummy news object which was used in earlier testing. It is largely deprecated.
 
 headline = "Manufacturing for tomorrow: Microsoft announces new industrial AI innovations from the cloud to the factory floor"
 date = datetime.datetime(2024, 4, 17)
@@ -41,6 +43,6 @@ Microsoft is a trusted co-innovation partner committed to working with enterpris
 
 We look forward to seeing you at the Microsoft Booth in Hall 17 Stand G06, where you can join guided tours, and speak with manufacturing and industrial experts from around the world."""
 
-sample = News(headline, date, text, NewsSource.MICROSOFT)
+sample = News(headline, date, text)
 with open('sample.dat', 'wb') as f:
     pickle.dump(sample, f)
