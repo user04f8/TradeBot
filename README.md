@@ -1,4 +1,4 @@
-A trading bot that was the winning submission for [Iddo Drori](https://www.cs.columbia.edu/~idrori/)'s deep learning stock market competition. Full details of the design, implementation, and some backtest metrics are available in (report.pdf)[report.pdf]
+A trading bot that was the winning submission for [Iddo Drori](https://www.cs.columbia.edu/~idrori/)'s deep learning stock market competition. Full details of the design, implementation, and some backtest metrics are available in [report.pdf](report.pdf)
 
 # Setup
 
