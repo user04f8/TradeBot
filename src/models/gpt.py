@@ -46,9 +46,17 @@ def gpt_completion_fn(model: str, input_str: str, steps: int, settings: Serializ
         sys_message = "You are a helpful assistant that performs time series predictions of stock prices, informed by news summaries. The user will provide a news summary and a sequence and you will predict the remaining sequence. The sequence is represented by decimal strings separated by commas."
         if stock is not None:
             preprompt = f"Here's a summary of recent news about {stock}: {summary} \n\n"
+            preprompt += "The following sequence represents stock prices of the stock summarized above. "
         else:
             preprompt = ""
         preprompt += "Please continue the following sequence without producing any additional text. Do not say anything like 'the next terms in the sequence are', just return the numbers. Sequence:\n"
+        
+        print(" --------------------")
+        print(" | SENDING TO GPT | ")
+        print("--------------------")
+        print(preprompt)
+        print("--------------------")
+        
         response = client.chat.completions.create(
             model=model,
             messages=[

@@ -3,8 +3,8 @@ from datetime import datetime
 
 from constants import BUTTERFLY_STRATEGY_SPREAD
 
-NEXT_OPTIONS_EXPIRY = '20240510'
-NEXT_OPTIONS_EXPIRY_DATETIME = datetime(2024, 5, 10)
+NEXT_OPTIONS_EXPIRY = '20240724'
+NEXT_OPTIONS_EXPIRY_DATETIME = datetime(2024, 7, 24)
 
 class IB_Interface:
     def __init__(self):
@@ -13,7 +13,6 @@ class IB_Interface:
 
     def disconnect(self):
         self.ib.disconnect()
-
 
     def get_local_daily(self, stock_symbol, n_days: int):
         bars = self.ib.reqHistoricalData(
@@ -118,6 +117,67 @@ class IB_Interface:
         trade3 = self.ib.placeOrder(higher_call, orders[2])
 
         print(f'butterfly: {stock_symbol}x{quantity_mult} for est. ${net_cost * quantity_mult}')
+
+class Fake_IB_Interface:
+    def __init__(self):
+        print('Init fake IB interface')
+        self.ib = IB()
+        self.ib.connect('127.0.0.1', 7497, clientId=1)
+
+    def print(self, msg):
+        print(f'fake_ib_interface: {msg}')
+
+    def disconnect(self):
+        self.print('disconnect')
+        self.ib.disconnect()
+
+    def get_local_daily(self, stock_symbol, n_days: int):
+        bars = self.ib.reqHistoricalData(
+            Stock(stock_symbol, exchange='SMART', currency='USD'),
+            endDateTime='',  # Empty string means up to the current moment
+            durationStr=f'{n_days} D',
+            barSizeSetting='1 day',
+            whatToShow='MIDPOINT',
+            useRTH=False,
+            formatDate=2)
+        
+        self.ib.sleep(1)
+
+        return [bar.open for bar in bars]
+
+    def get_local_hourly(self, stock_symbol, n_hours: int):
+        bars = self.ib.reqHistoricalData(
+            Stock(stock_symbol, exchange='SMART', currency='USD'),
+            endDateTime='',  # Empty string means up to the current moment
+            durationStr=f'{n_hours // 24} D',
+            barSizeSetting='1 hour',
+            whatToShow='MIDPOINT',
+            useRTH=False,
+            formatDate=2)
+        
+        self.ib.sleep(1)
+
+        return [bar.open for bar in bars]
+        
+    
+    def get_local_minutely(self, stock_symbol, n_mins: int):
+        bars = self.ib.reqHistoricalData(
+            stock_symbol,
+            endDateTime='',  # Empty string means up to the current moment
+            durationStr=f'{60 * n_mins} S',
+            barSizeSetting='1 min',
+            whatToShow='MIDPOINT',
+            useRTH=False,
+            formatDate=2)
+        
+        self.ib.sleep(1)
+
+        return [bar.open for bar in bars]
+            
+        
+
+    def buy_butterfly(self, stock_symbol, predicted_price, amount_to_purchase, expiry_date=NEXT_OPTIONS_EXPIRY, spread=BUTTERFLY_STRATEGY_SPREAD):
+        self.print(f'would purchase butterfly: {stock_symbol} w/ predicted {predicted_price}')
 
 
 

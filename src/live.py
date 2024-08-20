@@ -2,9 +2,9 @@ from datetime import datetime, timedelta
 import json
 import numpy as np
 
-from constants import N_TRIES, DEBUG
+from constants import N_TRIES, DEBUG, INPUT_TICKERS
 from src.utils import get_ticker_name_dict, quantize_to_option_strikes
-from src.ibkr.bot import IB_Interface, NEXT_OPTIONS_EXPIRY_DATETIME
+from src.ibkr.bot import Fake_IB_Interface, NEXT_OPTIONS_EXPIRY_DATETIME
 from src.data.news_interface import NewsInterface
 from src.snram.live_aggregator import SNRAMLive
 from src.models.make_preds import make_pred
@@ -23,7 +23,7 @@ snram = SNRAMLive()
 
 
 print('Connecting to IBKR')
-ib_int = IB_Interface()
+ib_int = Fake_IB_Interface()
 try:
     print('TraderBot is now running!')
     while True:
@@ -33,7 +33,15 @@ try:
         for i in range(N_TRIES):
             try:
                 # stochastically guess potential tickers to obtain news data from
-                ticker = tickers[np.random.randint(0, len(tickers))]
+                if INPUT_TICKERS:
+                    ticker = input('> ')
+                    if ticker not in tickers:
+                        print(tickers)
+                        ticker = input('> ')
+                else:
+                    ticker = tickers[np.random.randint(0, len(tickers))]
+
+
                 ticker_news = ni.get_news(ticker, n=3)
                 if len(ticker_news) == 0:
                     continue  # nothing interesting is happening with this particular stock so we move on 
@@ -48,20 +56,29 @@ try:
                 debug_print(stock_history)
                 debug_print(news_summary)
 
+                def pred(with_summary):
+                    if with_summary:
+                        pred_prices, pred_prices_median = make_pred(stock_history, len_out=(24*(NEXT_OPTIONS_EXPIRY_DATETIME - datetime.now()).days), stock=ticker, summary=news_summary)
+                    else:
+                        pred_prices, pred_prices_median = make_pred(stock_history, len_out=(24*(NEXT_OPTIONS_EXPIRY_DATETIME - datetime.now()).days))
 
-                pred_prices, pred_prices_median = make_pred(stock_history, len_out=(24*(NEXT_OPTIONS_EXPIRY_DATETIME - datetime.now()).days))
+                    debug_print(pred_prices)
 
-                debug_print(pred_prices)
-                
-                expiry_pred = quantize_to_option_strikes(np.median(pred_prices_median[-24:]))
+                    raw_pred = np.median(pred_prices_median[-24:])
+                    expiry_pred = quantize_to_option_strikes(np.median(pred_prices_median[-24:]))
 
-                variance = np.var(pred_prices_median) # get variance of predicted output ~ predicted volatility which correlates negatively with the value of buying a butterfly spread
-                uncertainty = np.median(np.var(pred_prices, axis=0, ddof=1)) # get median variance across columns of prediction matrix ~ uncertainty of model
+                    variance = np.var(pred_prices_median) # get variance of predicted output ~ predicted volatility which correlates negatively with the value of buying a butterfly spread
+                    uncertainty = np.median(np.var(pred_prices, axis=0, ddof=1)) # get median variance across columns of prediction matrix ~ uncertainty of model
 
-                debug_print('**************')
-                debug_print(f'prediction: {expiry_pred}')
-                debug_print(f'{variance=} {uncertainty=}')
-                debug_print('**************')
+                    debug_print('**************')
+                    debug_print(f'prediction: {raw_pred} ({expiry_pred})')
+                    debug_print(f'{variance=} {uncertainty=}')
+                    debug_print('**************')
+
+                    return raw_pred, expiry_pred, variance, uncertainty
+
+                raw_pred, expiry_pred, variance, uncertainty = pred(with_summary=True)
+                pred(with_summary=False)   # for debugging for now
 
                 overall_penalty = variance + uncertainty
                 if overall_penalty < overall_penalty_min:
@@ -72,8 +89,9 @@ try:
 
         if strategy is None:
             print('Warning: no viable strategy found')
-        else:    
+        else:
             ib_int.buy_butterfly(**strategy)
+            print(f'Raw pred: {raw_pred}')
 
         ib_int.ib.sleep(15*60)  # wait 15 minutes otherwise we just burn through our API usages way too quickly
 finally:
